@@ -11,7 +11,6 @@ class SecondActivity : AppCompatActivity() {
     lateinit var binding : ActivitySecondBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_second)
 
         binding.testTxt
